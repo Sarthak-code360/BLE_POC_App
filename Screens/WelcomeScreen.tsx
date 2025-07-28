@@ -68,7 +68,7 @@ const WelcomeScreen = ({ navigation }) => {
         {item.key === "6" && (
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigation.navigate("LoginScreen")}
+            onPress={() => navigation.navigate("SourceScreen")} //LoginScreen
           >
             <Text style={styles.buttonText}>Get Started</Text>
           </TouchableOpacity>

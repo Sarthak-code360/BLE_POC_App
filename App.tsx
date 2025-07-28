@@ -6,13 +6,16 @@ import WelcomeScreen from "./Screens/WelcomeScreen";
 import LoginScreen from "./Screens/LoginScreen";
 import ConnectDevice from "./Bluetooth/ConnectDevice";
 import HomeScreen from "./Screens/HomeScreen";
+import SourceScreen from "./Screens/btcTest/Source";
 import { StatusBar } from "expo-status-bar";
+import "react-native-get-random-values";
 import * as Font from "expo-font";
 import {
   useFonts as useInterFonts,
   Inter_700Bold,
 } from "@expo-google-fonts/inter";
 import OTA from "./Screens/OTA";
+import RecipientScreen from "./Screens/btcTest/Recipient";
 
 const Stack = createStackNavigator();
 
@@ -56,15 +59,25 @@ export default function App() {
           component={ConnectDevice}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
+        {/* <Stack.Screen
           name="OTA"
           component={OTA}
           options={{ headerShown: false }}
-        />
+        /> */}
         <Stack.Screen
           name="HomeScreen"
           component={HomeScreen}
           options={{ headerTitle: "Home", headerShown: true }}
+        />
+        <Stack.Screen
+          name="SourceScreen"
+          component={SourceScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="RecipientScreen"
+          component={RecipientScreen}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
       <StatusBar style="auto" />
