@@ -1,0 +1,317 @@
+{
+  "language": "Anzeigesprache",
+  "buttons": {
+    "ok": "OK",
+    "continue": "Weiter",
+    "skip": "Überspringen",
+    "apply": "Anwenden",
+    "confirm": "Bestätigen",
+    "reset": "Zurücksetzen",
+    "cancel": "Abbrechen",
+    "login": "Anmelden",
+    "getStarted": "Loslegen",
+    "scanQrCode": "QR-Code scannen",
+    "buyCypherockX1": "Cypherock X1 kaufen",
+    "grantPermission": "Berechtigung erteilen",
+    "nextOnboarding": "Weiter",
+    "allWallets": "Alle Wallets",
+    "retry": "Erneut versuchen",
+    "openSettings": "Einstellungen öffnen"
+  },
+  "lockscreen": {
+    "login": {
+      "tagline": "Ihr Tor zur Selbstsouveränität",
+      "input": {
+        "label": "Passwort eingeben, um zu entsperren",
+        "action": "Passwort vergessen?",
+        "error": "Falsches Passwort"
+      }
+    },
+    "reset": {
+      "title": "Durch das Zurücksetzen des Passworts wird Ihre cySync-App zurückgesetzt. Möchten Sie fortfahren?",
+      "description": "Dadurch werden alle Ihre Daten in Ihrer cySync-App gelöscht. Beachten Sie, dass dies nicht zum Verlust von Vermögenswerten führt."
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Willkommen in der cySync App",
+      "description": "Ihr Tor zur Selbstsouveränität",
+      "termsOfUse": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "byProceeding": "Indem Sie fortfahren, akzeptieren Sie Cypherocks ${termsOfUse} und ${privacyPolicy}"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Verfolgen Sie Ihre Krypto-Assets über Metamask, Ledger und jede andere Wallet, die Sie besitzen"
+    },
+    "history": {
+      "title": "Verlauf",
+      "description": "Sehen Sie sich Ihren vergangenen Transaktionsverlauf an und lassen Sie sich benachrichtigen, wenn eine Transaktion von Ihrem Cypherock X2 initiiert wird"
+    },
+    "receive": {
+      "title": "Empfangen",
+      "description": "Empfangen Sie Ihre Krypto-Assets direkt in Ihrem Cypherock X2. Unterwegs!"
+    },
+    "scan": {
+      "title": "QR von der Desktop-App synchronisieren",
+      "description": [
+        "Stellen Sie sicher, dass Sie einen Cypherock X1 gekauft und bereits eingerichtet haben, bevor Sie scannen",
+        "Gehen Sie in Ihrer cySync-Desktop-App zu Einstellungen > Allgemein > cySync mit mobiler App synchronisieren"
+      ]
+    },
+    "permission": {
+      "title": "Kameraberechtigung erforderlich",
+      "description": "Camera access is required to scan the QR code and sync with your cySync desktop app. Without this access, the sync process will not work",
+      "alert": {
+        "title": "Kamerazugriff erforderlich",
+        "description": "Diese Funktion erfordert Kamerazugriff. Sie können dies in den Geräteeinstellungen aktivieren."
+      }
+    },
+    "info": {
+      "title": "Ihre Desktop- und Mobil-Apps müssen manuell synchronisiert werden",
+      "description": "Die cySync-App speichert Ihre Daten lokal. Wenn Sie Ihre Coins/Konten in Ihrer Desktop-App aktualisieren, müssen Sie dasselbe in Ihrer mobilen App tun"
+    },
+    "passwordPage": {
+      "title": "Neues Passwort erstellen",
+      "inputs": {
+        "newPassword": {
+          "placeholder": "Neues Passwort",
+          "description": "Erstellen Sie ein starkes Passwort mit einer Mischung aus Buchstaben, Zahlen und Symbolen"
+        },
+        "confirmPassword": {
+          "placeholder": "Passwort bestätigen",
+          "description": "Beide Passwörter müssen übereinstimmen"
+        }
+      },
+      "validation": {
+        "minLength": "Mindestens 8 Zeichen",
+        "minDigit": "Mindestens 1 Ziffer",
+        "minUppercase": "Mindestens 1 Großbuchstabe",
+        "minSpecialChar": "Mindestens 1 Sonderzeichen (!@#$%^&*)"
+      },
+      "success": {
+        "title": "Neues Passwort erfolgreich hinzugefügt",
+        "subTitle": "Sie können sich jetzt mit Ihrem neuen Passwort anmelden"
+      }
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "subtitle": "Empfange deine Krypto-Assets direkt auf deinem Cypherock X2. Jederzeit unterwegs!"
+    },
+    "allSet": {
+      "title": "Sie sind startklar!",
+      "subtitle": ""
+    }
+  },
+  "scan": {
+    "alignQrCode": "Richten Sie den QR-Code so aus, dass er in den Rahmen passt",
+    "pleaseWait": "Bitte warten",
+    "messageBox": {
+      "warning": "Hinweis: Es kann mehr als ein QR-Code zu scannen sein"
+    },
+    "loading": {
+      "description": "Syncing in progress... Please stay on this screen and keep your display on until the process is complete"
+    }
+  },
+  "portfolio": {
+    "heading": "Portfolio",
+    "noAccount": {
+      "title": "Hier ist noch nichts!",
+      "subTitle": "Wir konnten nichts finden. Versuchen Sie, den QR-Code auf Ihrem Desktop erneut zu scannen"
+    },
+    "dashboard": {
+      "table": {
+        "asset": "Vermögenswert",
+        "amount": "Betrag"
+      }
+    }
+  },
+  "history": {
+    "heading": "Verlauf",
+    "history": {
+      "title": "Transaktionsverlauf",
+      "table": {
+        "time": "Zeit",
+        "amount": "Betrag"
+      }
+    },
+    "details": {
+      "title": "Transaktions-Hash",
+      "heading": {
+        "sent": "Gesendet",
+        "received": "Empfangen"
+      }
+    }
+  },
+  "receive": {
+    "heading": "Empfangen",
+    "chooseWallet": {
+      "title": "Wählen Sie eine Wallet aus, in der Sie Kryptowährungen empfangen möchten"
+    },
+    "chooseAccount": {
+      "title": "Wählen Sie eine Kryptowährung aus, die Sie empfangen möchten"
+    },
+    "receive": {
+      "info": "Adresse für ${crypto} in ${wallet}",
+      "messageBox": {
+        "danger": "Diese Empfangsadresse wurde NICHT vom Gerät VERIFIZIERT. Verwenden Sie sie auf eigenes Risiko oder überprüfen Sie die Adresse mit der cySync-Desktop-App."
+      }
+    },
+    "shared": {
+      "noAccounts": "Keine Konten in dieser Wallet gefunden!"
+    }
+  },
+  "support": {
+    "heading": "Support",
+    "support": {
+      "title": "Wie können wir helfen?",
+      "description": "E-Mail an: "
+    },
+    "socials": {
+      "title": "Bleiben Sie mit Cypherock in Verbindung",
+      "description": "Ankündigungen finden Sie in unserem Blog"
+    }
+  },
+  "settings": {
+    "heading": "Einstellungen",
+    "settings": {
+      "displayLanguage": "Anzeigesprache",
+      "password": "App-Einstellungen",
+      "about": "Über"
+    },
+    "general": {
+      "heading": "Allgemein",
+      "displayLanguage": "Anzeigesprache",
+      "preferredCurrency": "Bevorzugte Währung"
+    },
+    "displayLanguage": {
+      "heading": "Sprache",
+      "title": "Sprache auswählen"
+    },
+    "preferredCurrency": {
+      "heading": "Währung",
+      "title": "Bevorzugte Währung"
+    },
+    "about": {
+      "heading": "Über",
+      "title": "cySync Version",
+      "version": "",
+      "termsOfUse": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie"
+    },
+    "password": {
+      "heading": "App-Einstellungen",
+      "addNewPassword": "Neues Passwort hinzufügen",
+      "changePassword": "Passwort ändern",
+      "removePassword": "Passwort entfernen"
+    },
+    "addNewPassword": {
+      "title": "Neues Passwort erstellen",
+      "inputs": {
+        "newPassword": {
+          "placeholder": "Neues Passwort",
+          "description": "Erstellen Sie ein starkes Passwort mit einer Mischung aus Buchstaben, Zahlen und Symbolen"
+        },
+        "confirmPassword": {
+          "placeholder": "Passwort bestätigen",
+          "description": "Beide Passwörter müssen übereinstimmen"
+        }
+      },
+      "validation": {
+        "minLength": "Mindestens 8 Zeichen",
+        "minDigit": "Mindestens 1 Ziffer",
+        "minUppercase": "Mindestens 1 Großbuchstabe",
+        "minSpecialChar": "Mindestens 1 Sonderzeichen (!@#$%^&*)"
+      }
+    },
+    "changePassword": {
+      "title": "Passwort ändern",
+      "inputs": {
+        "oldPassword": {
+          "placeholder": "Altes Passwort"
+        },
+        "newPassword": {
+          "placeholder": "Neues Passwort"
+        },
+        "description": "Erstellen Sie ein starkes Passwort mit einer Mischung aus Buchstaben, Zahlen und Symbolen",
+        "confirmPassword": {
+          "placeholder": "Passwort bestätigen",
+          "description": "Beide Passwörter müssen übereinstimmen"
+        }
+      },
+      "validation": {
+        "minLength": "Mindestens 8 Zeichen",
+        "minDigit": "Mindestens 1 Ziffer",
+        "minUppercase": "Mindestens 1 Großbuchstabe",
+        "minSpecialChar": "Mindestens 1 Sonderzeichen (!@#$%^&*)"
+      }
+    },
+    "newPasswordAdded": {
+      "title": "Neues Passwort erfolgreich hinzugefügt",
+      "description": ""
+    },
+    "removePassword": {
+      "title": "Passwort entfernen?",
+      "description": "Sind Sie sicher, dass Sie das Passwort entfernen möchten?"
+    },
+    "passwordRemoved": {
+      "title": "Passwort erfolgreich entfernt"
+    }
+  },
+  "notifications": {
+    "heading": "Notifications",
+    "sendTransaction": "${amount} ${unit} ${type} to ${address}",
+    "sendTransactionMultiple": "${amount} ${unit} ${type} to multiple addresses",
+    "receiveTransaction": "${amount} ${unit} ${type} in the account ${walletName}/${accountName}",
+    "noTransactions": {
+      "title": "All caught up",
+      "subTitle": "No new transactions to show"
+    }
+  },
+  "banner": {
+    "title": "Cypherock Cover ist da!",
+    "description": "Klicken Sie hier, um mehr zu erfahren"
+  },
+  "toast": {
+    "addressCopied": "Adresse erfolgreich kopiert"
+  },
+  "bottomTabs": {
+    "portfolio": "Portfolio",
+    "history": "Verlauf",
+    "receive": "Empfangen",
+    "support": "Support",
+    "settings": "Einstellungen"
+  },
+  "transactions": {
+    "transactionStatus": {
+      "send": {
+        "failed": "Senden fehlgeschlagen",
+        "pending": "Wird gesendet",
+        "success": "Gesendet"
+      },
+      "receive": {
+        "failed": "Empfangen fehlgeschlagen",
+        "pending": "Wird empfangen",
+        "success": "Empfangen"
+      }
+    }
+  },
+  "graph": {
+    "totalBalance": "Total Balance",
+    "timeRange": {
+      "day": "1D",
+      "week": "1W",
+      "month": "1M",
+      "year": "1Y"
+    }
+  },
+  "graph": {
+    "totalBalance": "Total Balance",
+    "timeRange": {
+      "day": "1D",
+      "week": "1W",
+      "month": "1M",
+      "year": "1Y"
+    }
+  }
+}

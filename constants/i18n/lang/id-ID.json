@@ -1,0 +1,308 @@
+{
+  "language": "Bahasa Tampilan",
+  "buttons": {
+    "ok": "Oke",
+    "continue": "Lanjutkan",
+    "skip": "Lewati",
+    "apply": "Terapkan",
+    "confirm": "Konfirmasi",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "login": "Masuk",
+    "getStarted": "Mulai",
+    "scanQrCode": "Pindai Kode QR",
+    "buyCypherockX1": "Beli Cypherock X1",
+    "grantPermission": "Berikan Izin",
+    "nextOnboarding": "Next",
+    "allWallets": "Semua Dompet",
+    "retry": "Coba Lagi",
+    "openSettings": "Buka Pengaturan"
+  },
+  "lockscreen": {
+    "login": {
+      "tagline": "Your Gateway to Self-Sovereignty",
+      "input": {
+        "label": "Enter password to unlock",
+        "action": "Forgot password?",
+        "error": "Incorrect password"
+      }
+    },
+    "reset": {
+      "title": "Resetting password will reset your cySync app do you want to proceed?",
+      "description": "This will erase all your data on your cySync app. Note this will not result in loss of assets"
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Selamat datang di Aplikasi cySync",
+      "description": "Gerbang Anda menuju kedaulatan diri",
+      "termsOfUse": "Syarat Penggunaan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "byProceeding": "Dengan melanjutkan, Anda menerima ${termsOfUse} dan ${privacyPolicy} Cypherock"
+    },
+    "portfolio": {
+      "title": "Portofolio",
+      "description": "Lacak aset Kripto Anda di Metamask, Ledger, dan dompet lain yang Anda miliki"
+    },
+    "history": {
+      "title": "Riwayat",
+      "description": "Lihat riwayat transaksi Anda sebelumnya dan dapatkan pemberitahuan setiap kali ada transaksi yang dimulai dari Cypherock X2 Anda"
+    },
+    "receive": {
+      "title": "Terima",
+      "description": "Terima aset Kripto Anda langsung ke Cypherock X2 Anda. Di mana saja!"
+    },
+    "scan": {
+      "title": "Sinkronkan QR dari Aplikasi Desktop",
+      "description": [
+        "Pastikan Anda telah membeli Cypherock X1 dan sudah mengaturnya sebelum memindai",
+        "Pada aplikasi desktop cySync Anda, buka Pengaturan > Umum > Sinkronkan cySync dengan Aplikasi Seluler"
+      ]
+    },
+    "permission": {
+      "title": "Izin kamera diperlukan",
+      "description": "Camera access is required to scan the QR code and sync with your cySync desktop app. Without this access, the sync process will not work",
+      "alert": {
+        "title": "Akses Kamera Diperlukan",
+        "description": "Fitur ini memerlukan akses kamera. Anda dapat mengaktifkannya dari pengaturan perangkat Anda."
+      }
+    },
+    "info": {
+      "title": "Aplikasi Desktop dan Seluler Anda harus disinkronkan secara manual",
+      "description": "Aplikasi cySync menyimpan data Anda secara lokal. Jika Anda memperbarui koin/akun Anda di aplikasi desktop, Anda harus melakukan hal yang sama di aplikasi seluler Anda"
+    },
+    "passwordPage": {
+      "title": "Buat Kata Sandi Baru",
+      "inputs": {
+        "newPassword": {
+          "placeholder": "Kata sandi baru",
+          "description": "Buat kata sandi yang kuat dengan campuran huruf, angka, dan simbol"
+        },
+        "confirmPassword": {
+          "placeholder": "Konfirmasi kata sandi",
+          "description": "Kedua kata sandi harus cocok"
+        }
+      },
+      "validation": {
+        "minLength": "Minimal 8 karakter",
+        "minDigit": "Minimal 1 angka",
+        "minUppercase": "Minimal 1 huruf besar",
+        "minSpecialChar": "Minimal 1 karakter khusus (!@#$%^&*)"
+      },
+      "success": {
+        "title": "Kata Sandi Baru berhasil ditambahkan",
+        "subTitle": "Anda sekarang dapat menggunakan kata sandi baru Anda untuk masuk"
+      }
+    },
+    "notifications": {
+      "title": "Notifikasi",
+      "subtitle": "Terima aset kripto Anda langsung ke Cypherock X2 Anda. Saat bepergian!"
+    },
+    "allSet": {
+      "title": "Anda sudah siap!",
+      "subtitle": ""
+    }
+  },
+  "scan": {
+    "alignQrCode": "Sejajarkan kode QR agar muat di dalam bingkai",
+    "pleaseWait": "Harap Tunggu",
+    "messageBox": {
+      "warning": "Catatan: Mungkin ada lebih dari satu kode QR untuk dipindai"
+    },
+    "loading": {
+      "description": "Syncing in progress... Please stay on this screen and keep your display on until the process is complete"
+    }
+  },
+  "portfolio": {
+    "heading": "Portofolio",
+    "noAccount": {
+      "title": "Belum ada apa-apa di sini!",
+      "subTitle": "Kami tidak dapat menemukan apa pun. Coba pindai kode QR di desktop Anda lagi"
+    },
+    "dashboard": {
+      "table": {
+        "asset": "Aset",
+        "amount": "Jumlah"
+      }
+    }
+  },
+  "history": {
+    "heading": "Riwayat",
+    "history": {
+      "title": "Riwayat Transaksi",
+      "table": {
+        "time": "Waktu",
+        "amount": "Jumlah"
+      }
+    },
+    "details": {
+      "title": "Hash Transaksi",
+      "heading": {
+        "sent": "Terkirim",
+        "received": "Diterima"
+      }
+    }
+  },
+  "receive": {
+    "heading": "Terima",
+    "chooseWallet": {
+      "title": "Pilih dompet untuk menerima kripto"
+    },
+    "chooseAccount": {
+      "title": "Pilih kripto yang ingin Anda terima"
+    },
+    "receive": {
+      "info": "Alamat untuk ${crypto} di ${wallet}",
+      "messageBox": {
+        "danger": "Alamat Penerima Ini TIDAK DIVERIFIKASI oleh perangkat. Gunakan dengan risiko Anda sendiri atau verifikasi alamat menggunakan aplikasi desktop cySync."
+      }
+    },
+    "shared": {
+      "noAccounts": "No accounts found in this wallet!"
+    }
+  },
+  "support": {
+    "heading": "Dukungan",
+    "support": {
+      "title": "Bagaimana kami dapat membantu?",
+      "description": "kirim email ke: "
+    },
+    "socials": {
+      "title": "Tetap terhubung dengan Cypherock",
+      "description": "Pengumuman dapat ditemukan di blog kami"
+    }
+  },
+  "settings": {
+    "heading": "Pengaturan",
+    "settings": {
+      "displayLanguage": "Bahasa Tampilan",
+      "password": "Pengaturan Aplikasi",
+      "about": "Tentang"
+    },
+    "general": {
+      "heading": "Umum",
+      "displayLanguage": "Bahasa Tampilan",
+      "preferredCurrency": "Mata Uang Pilihan"
+    },
+    "displayLanguage": {
+      "heading": "Bahasa",
+      "title": "Pilih Bahasa"
+    },
+    "preferredCurrency": {
+      "heading": "Mata Uang",
+      "title": "Mata Uang Pilihan"
+    },
+    "about": {
+      "heading": "Tentang",
+      "title": "Versi cySync",
+      "version": "",
+      "termsOfUse": "Syarat Penggunaan",
+      "privacyPolicy": "Kebijakan Privasi"
+    },
+    "password": {
+      "heading": "Pengaturan Aplikasi",
+      "addNewPassword": "Tambahkan Kata Sandi Baru",
+      "changePassword": "Ubah Kata Sandi",
+      "removePassword": "Hapus Kata Sandi"
+    },
+    "addNewPassword": {
+      "title": "Buat Kata Sandi Baru",
+      "inputs": {
+        "newPassword": {
+          "placeholder": "Kata sandi baru",
+          "description": "Buat kata sandi yang kuat dengan campuran huruf, angka, dan simbol"
+        },
+        "confirmPassword": {
+          "placeholder": "Konfirmasi kata sandi",
+          "description": "Kedua kata sandi harus cocok"
+        }
+      },
+      "validation": {
+        "minLength": "Minimal 8 karakter",
+        "minDigit": "Minimal 1 angka",
+        "minUppercase": "Minimal 1 huruf besar",
+        "minSpecialChar": "Minimal 1 karakter khusus (!@#$%^&*)"
+      }
+    },
+    "changePassword": {
+      "title": "Ubah Kata Sandi",
+      "inputs": {
+        "oldPassword": {
+          "placeholder": "Kata sandi lama"
+        },
+        "newPassword": {
+          "placeholder": "Kata sandi baru"
+        },
+        "description": "Buat kata sandi yang kuat dengan campuran huruf, angka, dan simbol",
+        "confirmPassword": {
+          "placeholder": "Konfirmasi kata sandi",
+          "description": "Kedua kata sandi harus cocok"
+        }
+      },
+      "validation": {
+        "minLength": "Minimal 8 karakter",
+        "minDigit": "Minimal 1 angka",
+        "minUppercase": "Minimal 1 huruf besar",
+        "minSpecialChar": "Minimal 1 karakter khusus (!@#$%^&*)"
+      }
+    },
+    "newPasswordAdded": {
+      "title": "Kata Sandi Baru berhasil ditambahkan",
+      "description": ""
+    },
+    "removePassword": {
+      "title": "Hapus Kata Sandi?",
+      "description": "Anda yakin ingin menghapus kata sandi?"
+    },
+    "passwordRemoved": {
+      "title": "Kata sandi berhasil dihapus"
+    }
+  },
+  "notifications": {
+    "heading": "Notifications",
+    "sendTransaction": "${amount} ${unit} ${type} to ${address}",
+    "sendTransactionMultiple": "${amount} ${unit} ${type} to multiple addresses",
+    "receiveTransaction": "${amount} ${unit} ${type} in the account ${walletName}/${accountName}",
+    "noTransactions": {
+      "title": "All caught up",
+      "subTitle": "No new transactions to show"
+    }
+  },
+  "banner": {
+    "title": "Cypherock Cover sudah hadir!",
+    "description": "Klik di sini untuk info lebih lanjut"
+  },
+  "toast": {
+    "addressCopied": "Alamat berhasil disalin"
+  },
+  "bottomTabs": {
+    "portfolio": "Portofolio",
+    "history": "Riwayat",
+    "receive": "Terima",
+    "support": "Dukungan",
+    "settings": "Pengaturan"
+  },
+  "transactions": {
+    "transactionStatus": {
+      "send": {
+        "failed": "Send Failed",
+        "pending": "Sending",
+        "success": "Sent"
+      },
+      "receive": {
+        "failed": "Receive Failed",
+        "pending": "Receiving",
+        "success": "Received"
+      }
+    }
+  },
+  "graph": {
+    "totalBalance": "Total Balance",
+    "timeRange": {
+      "day": "1D",
+      "week": "1W",
+      "month": "1M",
+      "year": "1Y"
+    }
+  }
+}
