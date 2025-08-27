@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getFirmwareMetadata = async () => {
-  const res = await axios.get("https://api.mazoutelectric.com/api/firmware/latest");
+  const res = await axios.get("<Replace API Endpoint URL for firmware meta data>");
   return res.data;
 };
 

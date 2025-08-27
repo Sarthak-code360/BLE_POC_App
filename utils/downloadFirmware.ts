@@ -1,6 +1,6 @@
 import * as FileSystem from 'expo-file-system';
 
-const FIRMWARE_API = 'https://api.mazoutelectric.com/api/firmware/latest';
+const FIRMWARE_API = '<Replace with your API endpoint>';
 
 export const downloadLatestFirmware = async () => {
   const response = await fetch(FIRMWARE_API);
