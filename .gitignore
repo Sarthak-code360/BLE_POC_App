@@ -36,3 +36,6 @@ yarn-error.*
 
 # file
 /Bluetooth/BleConstants.ts
+
+# vscode
+.vscode/

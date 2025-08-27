@@ -6,10 +6,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Prerequisites](#prerequisites)
-- [Running the Application](#running-the-application)
-- [Output](#output)
 - [License](#license)
-- [Contact](#contact)
 
 
 ## Project Overview
@@ -26,44 +23,39 @@ The Mazout Vendor Application is a React Native-based mobile application designe
 
 ## Installation
 
-To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps.
-- npm install
-- Running on iOS [npx react-native run-ios]
-- Running on Android [npx react-native run-android]
+To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps:
 
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+2.  **Run the application:**
+    *   **Using Expo Go:**
+        ```bash
+        npm start
+        ```
+        Then, scan the QR code with the Expo Go app on your Android or iOS device.
+
+    *   **Using a simulator or connected device:**
+        ```bash
+        # for Android
+        npx react-native run-android
+
+        # for iOS
+        npx react-native run-ios
+        ```
 
 ## Prerequisites
 
 - Node.js
 - React Native CLI
 - Expo Framework
-
-
-## Running the Application
-
-- npm start
-
-## Outputs
-
-
-[Check out this video!](https://youtu.be/IgSfI1e9nuE?si=0yC8luZzVbZajql5)
-
+- Android Studio or Xcode for running on simulators.
 
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
-
-
-## Contact
-
-For general inquiries or issues, contact our support team:
-
-- **Support Email:** support@mazout.com
-- **GitHub Issues:** [Mazout Vendor Application Issues](https://github.com/Mazout-Electric/vendor-application/issues)
-
-For specific technical questions, you can also reach out to:
-
-- **Developer:** [Sarthak Mishra](https://github.com/Sarthak-code360)
 
 
 
