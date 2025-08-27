@@ -1,4 +1,4 @@
-# Mazout Vendor Application
+# BLE POC Application
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-The Mazout Vendor Application is a React Native-based mobile application designed for vendors. The application allows vendors to manage inventory, process orders, and check the authenticity of products efficiently.
+The BLE POC Application is a React Native-based mobile application designed for vendors. The application allows vendors to manage inventory, process orders, and check the authenticity of products efficiently.
 
 ## Features
 
